@@ -3,17 +3,6 @@ package ru.netology.domain;
 public class Afisha {
     private Movie[] films = new Movie[0];
     private int limitFilms = 10 ;
-    public int getLimit() {
-        return limitFilms;
-    }
-
-    public Movie[] getFilms() {
-        return films;
-    }
-
-    public Afisha() {
-        this.limitFilms = 10;
-    }
 
     public Afisha(int limit) {
         if (limit <= 0) {
@@ -22,7 +11,6 @@ public class Afisha {
             this.limitFilms = limit;
         }
     }
-
 
     public Movie[] lastFilm() {
         int resultLength;
@@ -48,6 +36,7 @@ public class Afisha {
         resultAdd[newLength  - 1] = newMovie;
          films = resultAdd ;
     }
+
 
 }
 

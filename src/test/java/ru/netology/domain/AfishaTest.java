@@ -7,17 +7,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class AfishaTest {
     private Afisha manager = new Afisha(10);
-    private Movie first = new Movie();
-    private Movie second = new Movie();
-    private Movie third = new Movie();
-    private Movie fourth = new Movie();
-    private Movie fifth = new Movie();
-    private Movie sixth = new Movie();
-    private Movie seventh = new Movie();
-    private Movie eighth = new Movie();
-    private Movie ninth = new Movie();
-    private Movie tenth = new Movie();
-    private Movie eleventh = new Movie();
+    private Movie first = new Movie(1, "Падение Луны", "боевик");
+    private Movie second = new Movie(2, "Непослушник", "комедия");
+    private Movie third = new Movie(3, "Мы - монстры", "мультфильм");
+    private Movie fourth = new Movie(4, "King's man:Начало", "боевик");
+    private Movie fifth = new Movie(5, "Вальдо", "криминал");
+    private Movie sixth = new Movie(6, "Зверопой 2", "мультфильм");
+    private Movie seventh = new Movie(7, "Гоу,Феликс", "мультфильм");
+    private Movie eighth = new Movie(8, "Паранормальные", "драма");
+    private Movie ninth = new Movie(9, "Чемпион мира", "драма");
+    private Movie tenth = new Movie(10, "Тихая ночь", "комедия");
+    private Movie eleventh = new Movie(11, "Параллельные матери", "драма");
 
 
     @Test
